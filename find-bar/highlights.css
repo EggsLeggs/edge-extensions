@@ -1,0 +1,13 @@
+/*
+ * Match colors. These use the CSS Custom Highlight API, so the page's DOM is
+ * never modified. Injected via the manifest so page CSP can't block it.
+ */
+::highlight(find-bar-all) {
+	background-color: #ffe066;
+	color: #000;
+}
+
+::highlight(find-bar-current) {
+	background-color: #ff922b;
+	color: #000;
+}

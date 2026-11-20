@@ -1,0 +1,14 @@
+{
+	"manifest_version": 3,
+	"name": "My Find Bar",
+	"version": "0.1.0",
+	"description": "Replaces Ctrl/Cmd+F with a custom find bar.",
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["content.js"],
+			"css": ["highlights.css"],
+			"run_at": "document_start"
+		}
+	]
+}

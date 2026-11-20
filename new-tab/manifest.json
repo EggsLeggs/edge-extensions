@@ -1,0 +1,9 @@
+{
+	"manifest_version": 3,
+	"name": "My New Tab",
+	"version": "0.3.0",
+	"description": "Blank new tab page, keeping focus in the address bar.",
+	"chrome_url_overrides": {
+		"newtab": "newtab.html"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"version": "0.2",
+	"language": "en-GB",
+	"useGitignore": true,
+	"ignorePaths": [".claude", ".cursor", "package-lock.json"],
+	"words": ["newtab"]
+}

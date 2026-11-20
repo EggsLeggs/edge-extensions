@@ -1,0 +1,23 @@
+{
+	"editor.formatOnSave": true,
+	"files.insertFinalNewline": true,
+	"files.trimTrailingWhitespace": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.biome": "explicit"
+	},
+	"[javascript]": { "editor.defaultFormatter": "biomejs.biome" },
+	"[json]": { "editor.defaultFormatter": "biomejs.biome" },
+	"[jsonc]": { "editor.defaultFormatter": "biomejs.biome" },
+	"[css]": { "editor.defaultFormatter": "biomejs.biome" },
+	"[markdown]": { "editor.defaultFormatter": "biomejs.biome" },
+	"eslint.enable": false,
+	"prettier.enable": false,
+	"files.readonlyInclude": {
+		"package-lock.json": true
+	},
+	"search.exclude": {
+		"package-lock.json": true
+	},
+	"editor.semanticHighlighting.enabled": true,
+	"json.schemaDownload.enable": true
+}
